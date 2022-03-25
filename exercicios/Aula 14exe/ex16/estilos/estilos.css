@@ -6,7 +6,7 @@
 } */
 
 body {
-    background-color: rgb(107, 13, 238);
+    background-color: brown;
     font: normal 15pt Arial;
 }
 
@@ -24,19 +24,8 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.453);
 }
 
-div {
-    text-align: center;
-    padding: 8px;
-}
-
 footer {
     color: white;
     text-align: center;
     font-style: italic;
-}
-
-#foto {
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
 }
