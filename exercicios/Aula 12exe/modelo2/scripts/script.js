@@ -12,7 +12,7 @@ function verificar() {
         var img = document.createElement('img') //para colocar imagem dinâmica pelo .js
         img.setAttribute('id', 'foto')
         if (fsex[0].checked) {  //Se o que tiver marcado, checado for o fsex0, é sinal que ele é MASCULINO. 
-            genero = 'Homem'
+            gênero = 'Homem'
             if (idade >=0 && idade < 10) {
                 // CRIANÇA
                 img.setAttribute('src', 'foto-bb-homem.png')
@@ -27,7 +27,7 @@ function verificar() {
                 img.setAttribute('src', 'foto-idoso-homem.png')
             }
         } else if (fsex[1].checked) {
-            genero = 'Mulher'
+            gênero = 'Mulher'
             if (idade >=0 && idade < 10) {
                 // CRIANÇA
                 img.setAttribute('src', 'foto-bb-homem.png')
@@ -43,7 +43,7 @@ function verificar() {
             }
         }
         res.style.textAlign = 'Center'
-        res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
+        res.innerHTML = `Detectamos ${gênero} com ${idade} anos.`
         res.appendChild(img)
     }
 }
