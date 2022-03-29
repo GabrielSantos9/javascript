@@ -6,7 +6,7 @@
 } */
 
 body {
-    background-color: rgb(107, 13, 238);
+    background-color: lightsalmon;
     font: normal 15pt Arial;
 }
 
@@ -25,7 +25,6 @@ section {
 }
 
 div {
-    text-align: center;
     padding: 8px;
 }
 
@@ -33,10 +32,4 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
-}
-
-#foto {
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
 }
