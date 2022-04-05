@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: normal 15pt Arial;
+    background-color: lightblue;
+}
+
+header {
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+section {
+    margin: auto;
+}
+
+div {
+    text-align: center;
+}
+
+.btn1 {
+    padding: 15px;
+    border-radius: 70px;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: lightskyblue;
+    color: white;
+    
+    animation-name: animacao;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animacao {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+.btn1:hover {
+    animation-name: animacao;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: blueviolet;
+}
+
+abbr {
+    text-decoration: none;
+    cursor: grab;
+}
