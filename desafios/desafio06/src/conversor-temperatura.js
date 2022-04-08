@@ -11,12 +11,13 @@ function converter() {
     let dividir2 = 5
     let totaldividir = parseInt(dividir1)/parseInt(dividir2)
     let somaf = 32
-    let contaf = parseInt(celsius)*parseInt(totaldividir)+parseInt(somaf)
+    let contaf = parseFloat(totaldividir)*parseInt(celsius)
+    let tot = parseInt(contaf)+parseInt(somaf)
 
 
     // Resultado na tela
     res.innerHTML += ''
-    res.innerHTML += `A temperatura de ${celsius}°C, corresponde  a...`
-    res.innerHTML += `${contak}°K (Kelvin)`
-    res.innerHTML += `${contaf}°F (Fahrenheit)`
+    res.innerHTML += `A temperatura de<strong> ${celsius}°C</strong>, corresponde  a...<br/>`
+    res.innerHTML += `<strong>${contak}°K</strong> (Kelvin)<br/>`
+    res.innerHTML += `<strong>${tot}°F</strong> (Fahrenheit)<br/>`
 }
