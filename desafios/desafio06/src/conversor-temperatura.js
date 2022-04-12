@@ -1,5 +1,5 @@
 function converter() {
-    let res = document.querySelector('.div1')
+    let res = document.querySelector('div.res')
     let celsius = (window.prompt('Digite uma temperatura em °C (Celsius).'))
 
     // kelvin
