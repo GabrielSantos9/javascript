@@ -4,10 +4,10 @@ function desconto() {
     let produto = window.prompt('Qual é o produto que você está comprando?')
     let preco = window.prompt(`Qual é o preço do ${produto}?`)
 
-    var porcentagem = 10
-    var porcentagemtotal = 100
-    var calculo = Number(porcentagem)*Number(preco)/Number(porcentagemtotal)
-    var subtracao = Number(preco)-Number(calculo)
+    let porcentagem = 10
+    let porcentagemtotal = 100
+    let calculo = Number(porcentagem)*Number(preco)/Number(porcentagemtotal)
+    let subtracao = Number(preco)-Number(calculo)
 
     res.innerHTML = ''
     res.innerHTML += `<p>Calculando desconto de <strong>10%</strong> para <strong>${produto}</strong>.</p>`
