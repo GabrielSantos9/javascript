@@ -7,5 +7,5 @@ function converter() {
     var conversaodolar = parseFloat(dinheironacarteira)/parseFloat(dolar)
     
     res.innerHTML = ''
-    res.innerHTML += `<p>Você converteu <strong>R$${dinheironacarteira}</strong> em <strong>$${conversaodolar.toFixed(2)}</strong>  !</p>`
+    res.innerHTML += `<p>Você converteu <strong>R$${dinheironacarteira}</strong> em <strong>$${conversaodolar.toFixed(2)}</strong> !</p>`
 }
