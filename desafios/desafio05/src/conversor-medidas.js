@@ -1,5 +1,5 @@
 function converter() {
-    let res = document.querySelector('div#res')
+    let res = document.querySelector('div.res')
     let quilometros = 1000
     let hectometros = 99967
     let decametros = 9997

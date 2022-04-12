@@ -19,17 +19,19 @@ header {
 }
 
 main {
-    text-align: center;
-}
-
-#res {
     margin: auto;
+    text-align: center;
     padding: 40px;
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     border-radius: 7px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.453);
     background-color: white;
+}
+
+.res {
+    text-align: start;
+    font-size: 15px;
 }
 
 .btn1 {
