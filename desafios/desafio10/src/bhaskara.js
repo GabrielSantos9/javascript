@@ -1,4 +1,4 @@
-function calculo() {
+function calcular() {
     let res = document.querySelector('div.res') 
 
     let va = Number(prompt('Qual é o valor de a?'))

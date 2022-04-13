@@ -22,7 +22,7 @@ header {
 section {
     margin: auto;
     text-align: center;
-    padding: 40px;
+    padding: 49px;
     width: 400px;
     height: 200px;
     border-radius: 7px;
@@ -63,7 +63,7 @@ section {
 }
 
 .aviso {
-    padding: 25px;
+    padding: 20px;
     font-size: 19px;
 }
 
