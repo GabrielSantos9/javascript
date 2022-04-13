@@ -31,9 +31,25 @@ section {
 }
 
 .res {
-    text-align: start;
+    text-align: center;
     font-size: 15px;
-    /* #F20519 */
+    padding: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+.mrk1 {
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #03A62C;
+}
+
+.mrk2 {
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #F20519;
 }
 
 .btn1 {
@@ -60,7 +76,7 @@ section {
 
 .btn1:hover {
     transition: 0.5s;
-    background-color: rgb(68, 67, 67);
+    background-color: rgb(109, 109, 109);
 }
 
 .aviso {
