@@ -67,6 +67,23 @@ section {
     font-size: 15px;
 }
 
+.mrk1 {
+    padding: 3px;
+    border-radius: 9px;
+    background-color: red;
+}
+
+.mrk2 {
+    padding: 3px;
+    border-radius: 9px;
+    background-color: yellow;
+} 
+
+.mrk3 {
+    padding: 3px;
+    border-radius: 9px;
+    background-color: green;
+}
 
 footer {
     padding: 50px;
