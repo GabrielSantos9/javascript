@@ -89,7 +89,7 @@ var usuario = {
                 --this.posicao
         },
 };
-
+//RETORNAR UM VALOR
 console.log(usuario.atual); // { nome: 'Gasaz', idade: 18 }
 usuario.proximo();
 
@@ -100,7 +100,7 @@ console.log(usuario.total); // { nome: 'Ronald', idade: 20 }
 
 usuario.anterior();
 console.log(usuario.total); // { nome: 'Maria', idade: 19 }
-
+//ATRIBUIR UM VALOR
 usuario.atual = 0;
 console.log(usuario.total); // { nome: 'Gasaz', idade: 18 }
 
