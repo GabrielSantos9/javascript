@@ -59,23 +59,23 @@
     // imprimeUsurario(usuarioFunction)
 
     //Com o Destructuring
-    function imprimeUsurario({nome, idade, sexo, pais = 'Eua'}) {
-        console.log(nome);
-        console.log(idade);
-        console.log(sexo);
-        console.log(pais);
-    }
+    // function imprimeUsurario({nome, idade, sexo, pais = 'Eua'}) {
+    //     console.log(nome);
+    //     console.log(idade);
+    //     console.log(sexo);
+    //     console.log(pais);
+    // }
     var usuarioFunction = {
         nome: 'Sophia',
         idade: 27,
         sexo: 'F',
         pais: 'Brasil'
     };
-    imprimeUsurario(usuarioFunction);
+    // imprimeUsurario(usuarioFunction);
 //logo, de vez receber um objeto inteiro, eu posso dizer quais as propriedades do objeto que eu quero Extrair.
 
 //*Dois objetos legais do objeto OBJECT do JS para você usar com objetos no JS.
-console.log(Object.keys(usuarioFunction));
+// console.log(Object.keys(usuarioFunction));
 //Imprime uma Array[] com todas as chaves do meu objeto.
-console.log(Object.values(usuarioFunction));
+// console.log(Object.values(usuarioFunction));
 //Imprime os valores do meu objeto.
