@@ -79,3 +79,30 @@
 //Imprime uma Array[] com todas as chaves do meu objeto.
 // console.log(Object.values(usuarioFunction));
 //Imprime os valores do meu objeto.
+
+                                                    // --- //
+
+//Interações
+//* Primeira Interação, usando o Loop For.
+var props = Object.keys(usuarioFunction);
+// console.log(props);
+
+//* Vou interar sobre esse Array que retornou do "Object keys" e não sobre o objeto em si.
+for (var i = 0; i < props.length; i++) {
+    // console.log(usuarioFunction[props[i]]);
+}
+
+//* Com o Loop For
+for (var prop of props) {
+    // console.log(usuarioFunction[prop])
+}
+
+for (var prop2 in usuarioFunction) {
+    // console.log(prop2, usuarioFunction[prop2]);
+}
+
+for (var prop2 in usuarioFunction) {
+    if (usuarioFunction.hasOwnProperty(prop2)) {
+        console.log(prop2, usuarioFunction[prop2]);
+    }  
+}
