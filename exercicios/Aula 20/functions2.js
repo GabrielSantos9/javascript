@@ -42,3 +42,37 @@ function Usuario() {
   
   var pers = Personagem.bind(personagemThis, 'Olá')
   pers('Mundo', '!!!')
+
+  // Arrow Functions
+
+  var soma = (a, b) => {
+    return a + b
+  }
+  console.log(10, 10)
+
+//forma mais curta
+// var soma = (a, b) => a + b
+// console.log(soma(10, 11))
+
+var soma = (a, b) => (
+  a + b
+)
+console.log(soma(10,11))
+
+// var retornaUsuario = () => (
+  // {
+    // nome: 'Gasaz',
+  // idade: 19,
+  // estado: 'São Paulo'
+// }
+// )
+// console.log(retornaUsuario)
+
+var retornaUsuario = cidade => (
+  {
+    nome: 'Gasaz',
+    idade: 19,
+    cidade
+  }
+)
+console.log(retornaUsuario('Arujá'))
