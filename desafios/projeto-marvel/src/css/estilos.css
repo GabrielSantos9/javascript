@@ -3,12 +3,12 @@ body{
     background: var(--cor-secundaria);
 }
 
-body::before{
+body::before{ /*Para a imagem fica debaixo do fundo, usando pseudo-elemento. (antes do body)*/
     content: '';
     background-image: url("../imagens/1cYrMYF.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
+    background-repeat: no-repeat; /*A imagem não vai se sepetir, pois ela é uma imagen INTEIRA.*/
+    background-size: cover; /*Background-size= tamanha / cover = cobrir todo o body com essa imagem.*/
+    position: absolute; /*Tira o elemento do fluxo da página. / é muito bom para tirar para posiciar um elemento encima do outro.*/
     width: 100%;
     height: 100%;
     opacity: 0.2;    
@@ -16,18 +16,18 @@ body::before{
 
 main{
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: flex; /*Ajuda na posição de elementos, centralizar elementos horizontalmente e verticalmente.*/
+    flex-direction: column; /*Um de baixo do outro, os elementos.*/
+    justify-content: center; /*Justificar o conteúdo, podendo os filhos usar o justify para alinhar ao centro.*/
 }
 
 .cabecalho{
-    z-index: 1;
+    z-index: 1; /*Camadas, folhas.*/
     display: flex;    
     justify-content: center;
 }
 
-.cabecalho .titulo{
+.cabecalho .titulo{ /*o .titulo está dentro do .cabecalho.*/
     color: var(--cor-titulo-fraco);
     text-transform: uppercase;
     font-size: 52px;
